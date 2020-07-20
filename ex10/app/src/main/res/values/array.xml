@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="fruits">
+        <item>사과</item>
+        <item>딸기</item>
+        <item>수박</item>
+        <item>바나나</item>
+        <item>복숭아</item>
+    </string-array>
+
+    <string-array name="coffee">
+        <item>아메리카노</item>
+        <item>카페라떼</item>
+        <item>에스프레소</item>
+        <item>카푸치노</item>
+        <item>카페모카</item>
+    </string-array>
+
+</resources>

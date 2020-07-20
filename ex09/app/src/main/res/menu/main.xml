@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1" android:title="글자크기">
+        <menu>
+            <group android:id="@+id/size" android:checkableBehavior="single">
+                <item android:id="@+id/size1" android:title="50px"/>
+                <item android:id="@+id/size2" android:title="100px" android:checked="true"/>
+                <item android:id="@+id/size3" android:title="150px"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/item2" android:title="글자색상">
+        <menu>
+            <group android:id="@+id/color" android:checkableBehavior="single">
+                <item android:id="@+id/color1" android:title="Black" android:checked="true"/>
+                <item android:id="@+id/color2" android:title="Red"/>
+                <item android:id="@+id/color3" android:title="Blue"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

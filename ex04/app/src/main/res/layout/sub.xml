@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CDDC39"
+    android:padding="10sp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="80sp"
+        android:layout_height="60sp"
+        android:src="@drawable/car"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:layout_below="@id/image"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="홍길동"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginLeft="10sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="010-8034-0554"
+        android:layout_alignParentRight="true"
+        android:textColor="#2196F3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="죽는 날까지 하늘을 우러러 한점 부끄러움이 없기를 잎새에 이는 바람에도 나는 괴로워했다. ..."
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"/>
+</RelativeLayout>

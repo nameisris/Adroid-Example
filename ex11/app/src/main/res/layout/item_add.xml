@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:padding="10sp">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@mipmap/ic_launcher_round"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성명출력"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/img"
+        android:layout_marginLeft="10sp"/>
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10sp"/>
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주소출력"
+        android:textColor="#ffffff"
+        android:textSize="10sp"
+        android:layout_toRightOf="@id/img"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="10sp"/>
+
+</RelativeLayout>
