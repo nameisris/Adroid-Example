@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="하나"
+        android:id="@+id/item1"
+        app:showAsAction="withText|always"/>
+    <item android:title="둘"
+        android:id="@+id/item2"
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_launcher_round"/>
+    <item android:title="셋"
+        android:id="@+id/item3"
+        app:showAsAction="ifRoom"/>
+    <item android:title="넷"
+        android:id="@+id/item4"
+        app:showAsAction="ifRoom"/>
+    <item android:title="다섯"
+        android:id="@+id/item5"
+        app:showAsAction="ifRoom"/>
+    <item android:title="여섯"
+        android:id="@+id/item6"
+        app:showAsAction="ifRoom"/>
+</menu>

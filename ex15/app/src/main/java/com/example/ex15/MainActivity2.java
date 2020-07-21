@@ -53,7 +53,7 @@ public class MainActivity2 extends AppCompatActivity {
                         String strAge = age.getText().toString();
                         String strTel = tel.getText().toString();
 
-                        // Intent intent = new Intent();
+                        Intent intent = new Intent();
                         intent.putExtra("name", strName); // intent에 strName을 "name"이라는 이름으로 넣음
                         intent.putExtra("add", strAdd);
                         intent.putExtra("age", strAge);
@@ -78,7 +78,7 @@ public class MainActivity2 extends AppCompatActivity {
         btn2.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                setResult(0, intent); // setResult() 메소드를 이용한 결과값 저장.
+                setResult(0); // setResult() 메소드를 이용한 결과값 저장. intent 값을 반영하지 않을 것이므로 괄호안에 0만 씀
                 //
                 // 현재 메소드는 취소 버튼이므로 RESULT_CANCELED를 통해 취소됐음을 세팅
                 finish(); // 액티비티가 닫히도록 함
