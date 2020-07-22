@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="하나"
+        android:id="@+id/one"
+        app:showAsAction="never"/>
+    <item android:title="둘"
+        android:id="@+id/two"
+        app:showAsAction="always"
+        android:icon="@drawable/img1"/>
+    <item android:title="셋"
+        android:id="@+id/three"
+        app:showAsAction="never"/>
+</menu>
